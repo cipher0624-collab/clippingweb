@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Privacy(){const email=process.env.NEXT_PUBLIC_CONTACT_EMAIL||'clippigreward@gmail.com';return <main className="legal"><Link href="/">← Clipping Rewards</Link><h1>Privacy Policy</h1><p>This page is ready for your approved privacy policy. Add details about information collected through booking, site analytics, and any connected services before launch.</p><p>Questions? Email <a href={`mailto:${email}`}>{email}</a>.</p></main>}
